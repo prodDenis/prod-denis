@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { fadeIn, slideIn, staggerContainer } from '../../utils/motion'
+import { fadeIn, slideIn } from '../../utils/motion'
 
 import Skill from './Skill'
 
