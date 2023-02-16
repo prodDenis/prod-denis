@@ -22,6 +22,7 @@ export default function AboutMe() {
               variants={fadeIn('up', 'tween', 0, 1)}
               initial='hidden'
               whileInView='show'
+              viewport={{ once: true }}
               className='largeText dark:font-bold font-medium'
             >
               Denis-Feshchenko.
@@ -30,6 +31,7 @@ export default function AboutMe() {
               variants={fadeIn('up', 'tween', 1, 1)}
               initial='hidden'
               whileInView='show'
+              viewport={{ once: true }}
               className='mediumText'
             >
               isMyName
@@ -38,6 +40,7 @@ export default function AboutMe() {
               variants={fadeIn('up', 'tween', 2, 1)}
               initial='hidden'
               whileInView='show'
+              viewport={{ once: true }}
               className='bigText dark:font-bold'
             >
               {' '}
@@ -49,6 +52,7 @@ export default function AboutMe() {
               variants={fadeIn('up', 'tween', 3, 1)}
               initial='hidden'
               whileInView='show'
+              viewport={{ once: true }}
               className='largeText dark:font-bold font-medium'
             >
               Front-End-Development.
@@ -57,6 +61,7 @@ export default function AboutMe() {
               variants={fadeIn('up', 'tween', 4, 1)}
               initial='hidden'
               whileInView='show'
+              viewport={{ once: true }}
               className='mediumText'
             >
               isMyGame
@@ -68,6 +73,7 @@ export default function AboutMe() {
         variants={slideIn('left', 'tween', 0, 1)}
         initial='hidden'
         whileInView='show'
+        viewport={{ once: true }}
         className='w-full flex flex-col items-center mobileContainer sm:container'
         id='aboutme'
       >
@@ -93,6 +99,7 @@ export default function AboutMe() {
         variants={slideIn('right', 'tween', 0, 1)}
         initial='hidden'
         whileInView='show'
+        viewport={{ once: true }}
         className='w-full flex flex-col items-center mobileContainer sm:container'
         id='skills'
       >

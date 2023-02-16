@@ -41,6 +41,7 @@ export default function Weather() {
       variants={slideIn('left', 'tween', 0, 1)}
       initial='hidden'
       whileInView='show'
+      viewport={{ once: true }}
       className='flex-col max-sm:mobileContainer sm:w-full max-xl:min-h-[600px] xl:flex-1 sm:container'
       id='weatherapp'
     >

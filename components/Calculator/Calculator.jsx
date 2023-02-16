@@ -151,6 +151,7 @@ export default function Calculator() {
       variants={slideIn('right', 'tween', 0, 1)}
       initial='hidden'
       whileInView='show'
+      viewport={{ once: true }}
       className='flex-col max-sm:mobileContainer sm:max-xl:min-h-[600px] sm:container w-full xl:w-auto'
       id='calculator'
     >
