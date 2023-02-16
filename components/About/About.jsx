@@ -65,7 +65,7 @@ export default function AboutMe() {
         </div>
       </div>
       <motion.div
-        variants={slideIn('left', 'tween', 0.5, 1)}
+        variants={slideIn('left', 'tween', 0, 1)}
         initial='hidden'
         whileInView='show'
         className='w-full flex flex-col items-center mobileContainer sm:container'
@@ -90,7 +90,7 @@ export default function AboutMe() {
         </div>
       </motion.div>
       <motion.div
-        variants={slideIn('right', 'tween', 0.5, 1)}
+        variants={slideIn('right', 'tween', 0, 1)}
         initial='hidden'
         whileInView='show'
         className='w-full flex flex-col items-center mobileContainer sm:container'

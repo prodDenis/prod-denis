@@ -148,7 +148,7 @@ export default function Calculator() {
 
   return (
     <motion.div
-      variants={slideIn('right', 'tween', 0.5, 1)}
+      variants={slideIn('right', 'tween', 0, 1)}
       initial='hidden'
       whileInView='show'
       className='flex-col max-sm:mobileContainer sm:max-xl:min-h-[600px] sm:container w-full xl:w-auto'

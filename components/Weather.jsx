@@ -38,7 +38,7 @@ export default function Weather() {
 
   return (
     <motion.div
-      variants={slideIn('left', 'tween', 0.5, 1)}
+      variants={slideIn('left', 'tween', 0, 1)}
       initial='hidden'
       whileInView='show'
       className='flex-col max-sm:mobileContainer sm:w-full max-xl:min-h-[600px] xl:flex-1 sm:container'
