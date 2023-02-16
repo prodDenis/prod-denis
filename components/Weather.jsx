@@ -11,8 +11,7 @@ export default function Weather() {
 
   const searchLocation = async () => {
     if (location) {
-      const geocodeUrl = `https://prod-denis.vercel.app
-/http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=e0cf0dd55e5741e3ac78731ea2ea3432`
+      const geocodeUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=e0cf0dd55e5741e3ac78731ea2ea3432`
       const geocodeRes = await axios
         .get(geocodeUrl)
         .then((res) => res.data[0])
