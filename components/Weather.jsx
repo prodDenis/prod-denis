@@ -42,7 +42,7 @@ export default function Weather() {
       initial='hidden'
       whileInView='show'
       viewport={{ once: true }}
-      className='flex-col max-sm:mobileContainer sm:w-full max-xl:min-h-[600px] xl:flex-1 sm:container'
+      className='flex-col max-sm:border-t max-sm:mobileContainer sm:w-full max-xl:min-h-[600px] xl:flex-1 sm:container'
       id='weatherapp'
     >
       <div className='containerSpan flex items-center justify-center relative'>

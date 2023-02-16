@@ -13,9 +13,7 @@ import {
 export default function LandingPage() {
   return (
     <div className='flex flex-col items-center' id='metaverse'>
-      <span className='containerSpan py-5 dark:border-t border-softGray'>
-        Metaverse Landing Page
-      </span>
+      <span className='containerSpan py-5'>Metaverse Landing Page</span>
       <div className='overflow-hidden font-metaverse'>
         <Navbar />
         <Hero />

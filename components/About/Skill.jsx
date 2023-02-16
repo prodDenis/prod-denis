@@ -19,7 +19,7 @@ export default function Skill({ skillName, skillExperience, skillText }) {
         <span className='font-medium mediumText'>{skillName}</span>
       </div>
       <motion.div
-        className='hidden invisible group-hover:visible group-hover:flex w-full smallText'
+        className='hidden group-hover:flex w-full smallText'
         variants={fadeIn('up', 'spring', 0, 0.5)}
         initial='hidden'
         whileInView='show'
